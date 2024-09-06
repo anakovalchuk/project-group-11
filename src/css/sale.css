@@ -1,0 +1,147 @@
+.sale-section {
+  margin-bottom: 60px;
+}
+
+.sale-section .section-header {
+  font-family: Gilroy;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+
+.sale-section .image-cards-container .list {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+}
+
+.sale-section .image-cards-container .list .element {
+  width: 100%;
+}
+
+.sale-section .element .thumb {
+  background-color: #f3f3f3;
+  border: 1px solid #0c0c0c0d;
+  width: 100%;
+  padding: 12px 13px;
+  border-radius: 16px;
+}
+
+.sale-section .sale-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sale-section .image-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sale-section .image-cards-container > .thumb {
+  background-color: #f3f3f3;
+  border: 1px solid #0c0c0c0d;
+  border-radius: 30px;
+  width: 100%;
+  padding: 49px;
+}
+
+.sale-content .image-cards-container .pic {
+  margin: 0 auto;
+}
+.sale-content .description-block {
+  background-color: #3350e9;
+  border-radius: 30px;
+  padding: 48px 28px;
+}
+
+.sale-content .description-block .description-header {
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fbfbfb;
+  margin-bottom: 10px;
+}
+
+.sale-content .description-block .product-tag {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fbfbfb80;
+  margin-bottom: 20px;
+}
+
+.sale-content .description-block .price-block {
+  display: flex;
+  margin-bottom: 28px;
+  align-items: baseline;
+}
+
+.sale-content .description-block .price-block .new-price {
+  padding: 8px 12px;
+  background-color: #fbfbfb1a;
+  border-radius: 8px;
+  margin-right: 9px;
+
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 600;
+  /* В настройках шрифта высота линии указана как 20px однако 
+  высота самого блока текст на макете - 16px, из-за этого контейнер 
+  вокруг текста получается больше чем на макете */
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.sale-content .description-block .price-block .old-price {
+  font-family: Gilroy;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fbfbfb80;
+  text-decoration: line-through;
+}
+
+.sale-content .description-block .description-text {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fbfbfbb2;
+  margin-bottom: 28px;
+}
+
+.sale-content .description-block .tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.sale-content .description-block .tag-list .tag {
+  padding: 7px 11px;
+  border: 1px solid #fbfbfb33;
+  border-radius: 8px;
+
+  font-family: Gilroy;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #fbfbfb;
+}
