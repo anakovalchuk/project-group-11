@@ -1,0 +1,207 @@
+.contact-us {
+    margin-bottom: 60px;
+    padding: 0px 20px;
+}
+@media screen and (min-width: 768px) {
+    .contact-us {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .contact-us {
+        margin-bottom: 100px;
+    }
+}
+
+/* @media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 1280px) {
+    
+} */
+
+.container-cu {
+    min-width: 320px;
+    max-width: 375px;
+}
+
+@media screen and (min-width: 1280px) {
+    .container-cu {
+        display: flex;
+        gap: 40px;
+    }
+} 
+
+.header-cu {
+    font-family: "Gilroy", sans-serif;
+font-weight: 600;
+font-size: 32px;
+line-height: 1;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+margin-bottom: 24px;
+}
+
+.form-cu {
+    max-width: 335px;
+    border-radius: 30px;
+    background: #f3f3f3;
+    padding: 48px 28px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .form-cu {
+        border-radius: 50px;
+        padding: 50px 122px;
+        min-width: 704px;
+        min-height: 556px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .form-cu {
+        min-width: 580px;
+        padding: 50px 60px;
+    }
+}
+
+.text-cu {
+    font-family: "Gilroy", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.7);
+margin-bottom: 28px;
+margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .text-cu {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 32px;
+    }
+}
+
+.input-cu {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+border-radius: 12px;
+padding: 12px 14px;
+width: 279px;
+margin-bottom: 18px;
+background-color: transparent;
+    outline: transparent; 
+}
+
+@media screen and (min-width: 768px) {
+    .input-cu {
+        padding: 16px;
+        width: 460px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .input-cu {
+        padding: 16px;
+    }
+}
+
+.textarea-cu {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 12px 14px;
+    width: 279px;
+    min-height: 84px;
+    margin-bottom: 28px;
+    resize: none;
+    background-color: transparent;
+    outline: transparent;    
+}
+
+@media screen and (min-width: 768px) {
+    .textarea-cu {
+        min-height: 90px;
+        padding: 16px;
+        width: 460px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+.input-cu, 
+.textarea-cu {
+    box-sizing: border-box;
+    margin: 0 auto 18px; 
+    display: block;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+    .textarea-cu {
+        margin-bottom: 32px;
+    }
+}
+
+.input-cu::placeholder,
+.textarea-cu::placeholder {
+    font-family: "Gilroy", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+color: #0c0c0c;
+}
+
+.input-cu:hover,
+.input-cu:focus,
+.textarea-cu:hover,
+.textarea:focus {
+    border: 1px solid #3350e9;
+}
+
+
+.button-cu {
+    border-radius: 16px;
+padding: 12px 50px;
+width: 134px;
+height: 42px;
+background: #3350e9;
+border: none;
+
+font-family: "Gilroy", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+text-align: center;
+color: #fbfbfb;
+
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+    .button-cu {
+        padding: 17px 63px;
+        width: 160px;
+        height: 52px;
+    }
+}
+
+.button-cu:hover,
+.button-cu:focus {
+    background-color: #1f3cd4;
+}
+
+.image-cu {
+    background-color: #f3f3f3;
+}
+
+@media screen and (min-width: 1280px) {
+    .image-cu {
+        margin-top: 84px;
+    }
+}
