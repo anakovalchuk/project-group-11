@@ -1,11 +1,3 @@
-body {
-    font-family: "Gilroy", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: rgba(12, 12, 12, 0.7);
-    background-color: #fff;
-}
-
 h1,
 h2,
 h3,
@@ -36,6 +28,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 .container {
     max-width: 1280px;
     padding: 0 65px;
@@ -70,83 +63,84 @@ img {
     font-style: normal;
 }
 
-
 /* MOBILE */
 @media screen and (min-width: 320px) {
     .container {
-            min-width: 320px;
-            max-width: 375px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
+        min-width: 320px;
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
     .reviews {
-            padding: 0px 20px;
-            padding-bottom: 60px;
-            margin: 0 auto;
-        }
-   .reviews-main-text {
-            font-weight: 600;
-            font-size: 32px;
-            line-height: 1;
-            letter-spacing: -0.02em;
-            color: #0c0c0c;
-            padding: 0;
-            padding-bottom: 24px;
-        }
-        
-        .reviews-div {
-            display: flex;
-            justify-content: center;
-        }
-        
-        .reviews-ul {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-        
-        .reviews-li {
-            border-radius: 30px;
-            padding: 32px 36px;
-            width: 335px;
-            min-height: 262px;
-            background: #f3f3f3;
-        }
-        
-        .reviews-box {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        .reviews-li-name {
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.25;
-            letter-spacing: -0.02em;
-            text-align: center;
-            color: #0c0c0c;
-        
-            padding-top: 24px;
-            padding-bottom: 8px;
-        }
-        
-        .reviews-about {
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 1.29;
-            letter-spacing: -0.02em;
-            text-align: center;
-            color: rgba(12, 12, 12, 0.4);
-        }
+        padding: 0px 20px;
+        padding-bottom: 60px;
+        margin: 0 auto;
+    }
 
-        .hidden {
-            display: none;
-        }
+    .reviews-main-text {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+        padding: 0;
+        padding-bottom: 24px;
+    }
 
-        .hid-two {
-            display: none;
-        }
+    .reviews-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .reviews-ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .reviews-li {
+        border-radius: 30px;
+        padding: 32px 36px;
+        width: 335px;
+        min-height: 262px;
+        background: #f3f3f3;
+    }
+
+    .reviews-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews-li-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #0c0c0c;
+
+        padding-top: 24px;
+        padding-bottom: 8px;
+    }
+
+    .reviews-about {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(12, 12, 12, 0.4);
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .hid-two {
+        display: none;
+    }
 }
 
 /* TABLET */
@@ -155,72 +149,75 @@ img {
         max-width: 768px;
         padding: 0 32px;
     }
-        .reviews {
-            padding: 0px 32px;
-            padding-bottom: 80px;
-        }
-    
-        .reviews-main-text {
-            font-size: 48px;
-            line-height: 0.92;
-            padding: 0;
-            padding-bottom: 40px;
-        }
-    
-        .reviews-ul {
-            gap: 16px;
-        }
-    
-        .reviews-li {
-            width: 344px;
-            min-height: 272px;
-        }
-    
-        .reviews-box {
-            min-height: 208px;
-        }
-    
-        .reviews-li-name {
-            font-size: 18px;
-            line-height: 1.10;
-        }
-    
-        .reviews-about {
-            font-size: 16px;
-            line-height: 1.25;
-        }
-    
-        .hidden {
-            display: block;
-        }
+
+    .reviews {
+        padding: 0px 32px;
+        padding-bottom: 80px;
+    }
+
+    .reviews-main-text {
+        font-size: 48px;
+        line-height: 0.92;
+        padding: 0;
+        padding-bottom: 40px;
+    }
+
+    .reviews-ul {
+        gap: 16px;
+    }
+
+    .reviews-li {
+        width: 344px;
+        min-height: 272px;
+    }
+
+    .reviews-box {
+        min-height: 208px;
+    }
+
+    .reviews-li-name {
+        font-size: 18px;
+        line-height: 1.10;
+    }
+
+    .reviews-about {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .hidden {
+        display: block;
+    }
 }
 
 
 
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
-       .container {
-            max-width: 1280px;
-            padding: 0 65px;
-        }
-        .reviews {
-            padding: 0px 65px;
-            padding-bottom: 100px;
-            width: 1280px;
-            min-height: 356px;
-            margin: 0 auto;
-        }
-    
-        .reviews-ul {
-            gap: 20px;
-        }
-        .reviews-li {
-            width: 370px;
-            min-height: 272px;
-        }
+    .container {
+        max-width: 1280px;
+        padding: 0 65px;
+    }
 
-        .hid-two {
-            display:
-             block;
-        }
+    .reviews {
+        padding: 0px 65px;
+        padding-bottom: 100px;
+        width: 1280px;
+        min-height: 356px;
+        margin: 0 auto;
+    }
+
+    .reviews-ul {
+        gap: 20px;
+    }
+
+    .reviews-li {
+        width: 370px;
+        min-height: 272px;
+    }
+
+    .hid-two {
+        display:
+            block;
+    }
 }
