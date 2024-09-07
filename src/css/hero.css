@@ -99,7 +99,7 @@
 }
 
 .background-image {
-    background-image: url(../img/hero/hero-mob.png);
+    background-image: url("/img/hero/hero-mob.png");
     border-radius: 30px;
     max-width: 335px;
     height: 366px;
@@ -115,7 +115,7 @@
         screen and (min-resolution: 2dppx) {
         .hero {
             background-image:
-            url("../img/hero/hero-mob@2x.png");
+            url("/img/hero/hero-mob@2x.png");
         }
     }
 
@@ -180,7 +180,7 @@ TABLET
     }
 
     .background-image {
-        background-image: url(../img/hero/hero-tab.png);
+        background-image: url("/img/hero/hero-tab.png");
         height: 520px;
         max-width: 704px;
     }
@@ -190,7 +190,7 @@ TABLET
             screen and (min-resolution: 2dppx) {
             .hero {
                 background-image:
-                url("../img/hero/hero-tab@2x.png");
+                url("/img/hero/hero-tab@2x.png");
             }
         }
 }
@@ -234,7 +234,7 @@ DESKTOP
     }
 
     .background-image {
-        background-image: url(../img/hero/hero-desk.png);
+        background-image: url("/img/hero/hero-desk.png");
         height: 500px;
         max-width: 1150px;
     }
@@ -244,7 +244,7 @@ DESKTOP
             screen and (min-resolution: 2dppx) {
             .hero {
                 background-image:
-                url("../img/hero/hero-desk@2x.png");
+                url("/img/hero/hero-desk@2x.png");
             }
         }
 }
