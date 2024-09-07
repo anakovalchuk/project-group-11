@@ -1,0 +1,246 @@
+/* Mobile styles */
+
+.sale-section {
+  margin-bottom: 60px;
+}
+
+.sale-section .section-header {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+
+.sale-section .sale-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* images part */
+.sale-section .image-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.sale-section .image-cards-container .list {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+}
+
+.sale-section .element .thumb {
+  background-color: #f3f3f3;
+  border: 1px solid #0c0c0c0d;
+  padding: 12px 13px;
+  border-radius: 16px;
+}
+
+.sale-section .image-cards-container > .thumb {
+  background-color: #f3f3f3;
+  border: 1px solid #0c0c0c0d;
+  border-radius: 30px;
+  padding: 49px;
+}
+
+.sale-content .pic {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.sale-content .element .thumb > .pic {
+  max-width: 52px;
+}
+
+.sale-content .thumb > .pic {
+  max-width: 235px;
+}
+
+/* description part */
+.sale-content .description-block {
+  background-color: #3350e9;
+  border-radius: 30px;
+  padding: 48px 28px;
+  width: 100%;
+}
+
+.sale-content .description-block .description-header {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fbfbfb;
+  margin-bottom: 10px;
+}
+
+.sale-content .description-block .product-tag {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fbfbfb80;
+  margin-bottom: 20px;
+}
+
+.sale-content .description-block .price-block {
+  display: flex;
+  margin-bottom: 28px;
+  align-items: center;
+}
+
+.sale-content .description-block .price-block .new-price {
+  padding: 8px 12px;
+  background-color: #fbfbfb1a;
+  border-radius: 8px;
+  margin-right: 9px;
+
+  font-weight: 600;
+  /* В настройках шрифта высота линии указана как 20px однако 
+  высота самого блока текст на макете - 16px, из-за этого контейнер 
+  вокруг текста получается больше чем на макете */
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.sale-content .description-block .price-block .old-price {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fbfbfb80;
+  text-decoration: line-through;
+}
+
+.sale-content .description-block .description-text {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fbfbfbb2;
+  margin-bottom: 28px;
+}
+
+.sale-content .description-block .tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.sale-content .description-block .tag-list .tag {
+  padding: 7px 11px;
+  border: 1px solid #fbfbfb33;
+  border-radius: 8px;
+
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  color: #fbfbfb;
+}
+
+/* Tablet styles */
+
+@media screen and (min-width: 768px) {
+  .sale-section {
+    margin-bottom: 80px;
+  }
+
+  .sale-section .section-header {
+    font-size: 48px;
+    line-height: 44px;
+    margin-bottom: 40px;
+  }
+
+  .sale-section .sale-content {
+    gap: 40px;
+  }
+
+  /* images part */
+  .sale-section .image-cards-container .list {
+    flex-direction: column;
+    width: auto;
+    gap: 10px;
+  }
+
+  .sale-content .element .thumb > .pic {
+    max-width: 96px;
+  }
+
+  .sale-content .thumb > .pic {
+    max-width: 328px;
+  }
+
+  .sale-section .element .thumb {
+    padding: 15px 17px;
+  }
+
+  .sale-section .image-cards-container > .thumb {
+    padding: 79px 111px;
+  }
+
+  /* description part */
+  .sale-content .description-block {
+    padding: 60px;
+  }
+  .sale-content .description-block .description-header {
+    font-size: 32px;
+    line-height: 36px;
+    max-width: 436px;
+  }
+
+  .sale-content .description-block .price-block {
+    margin-bottom: 30px;
+  }
+
+  .sale-content .description-block .price-block .new-price {
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+  }
+
+  .sale-content .description-block .description-text {
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
+  .sale-content .description-block .tag-list {
+    max-width: 398px;
+  }
+
+  .sale-content .description-block .tag-list .tag {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1280px) {
+  .sale-section {
+    margin-bottom: 100px;
+  }
+
+  /* images part */
+  .sale-section .sale-content {
+    gap: 40px;
+  }
+  .sale-section .image-cards-container > .thumb {
+    padding: 79px 49px;
+  }
+
+  /* description part */
+  .sale-content .description-block {
+    max-width: 530px;
+  }
+
+  .sale-content .description-block .description-header {
+    max-width: 389px;
+  }
+}
