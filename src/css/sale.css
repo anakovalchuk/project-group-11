@@ -17,7 +17,7 @@
 
 .sale-section .sale-content {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -67,6 +67,7 @@
   background-color: #3350e9;
   border-radius: 30px;
   padding: 48px 28px;
+  width: 100%;
 }
 
 .sale-content .description-block .description-header {
@@ -156,7 +157,12 @@
 }
 
 /* Tablet styles */
+
 @media screen and (min-width: 768px) {
+  .sale-section {
+    margin-bottom: 80px;
+  }
+
   .sale-section .section-header {
     font-size: 48px;
     line-height: 44px;
@@ -176,12 +182,10 @@
 
   .sale-content .element .thumb > .pic {
     max-width: 96px;
-    max-height: 100px;
   }
 
   .sale-content .thumb > .pic {
     max-width: 328px;
-    max-height: 398px;
   }
 
   .sale-section .element .thumb {
@@ -226,6 +230,28 @@
     font-size: 14px;
     line-height: 18px;
   }
+}
 
-  /* Desktop Styles */
+/* Desktop Styles */
+@media screen and (min-width: 1280px) {
+  .sale-section {
+    margin-bottom: 100px;
+  }
+
+  /* images part */
+  .sale-section .sale-content {
+    gap: 40px;
+  }
+  .sale-section .image-cards-container > .thumb {
+    padding: 79px 49px;
+  }
+
+  /* description part */
+  .sale-content .description-block {
+    max-width: 530px;
+  }
+
+  .sale-content .description-block .description-header {
+    max-width: 389px;
+  }
 }
