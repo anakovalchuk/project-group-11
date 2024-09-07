@@ -5,7 +5,6 @@
 }
 
 .sale-section .section-header {
-  font-family: Gilroy;
   font-size: 32px;
   font-weight: 600;
   line-height: 32px;
@@ -71,7 +70,6 @@
 }
 
 .sale-content .description-block .description-header {
-  font-family: Gilroy;
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
@@ -82,7 +80,6 @@
 }
 
 .sale-content .description-block .product-tag {
-  font-family: Gilroy;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -104,8 +101,6 @@
   border-radius: 8px;
   margin-right: 9px;
 
-  font-family: Gilroy;
-  font-size: 16px;
   font-weight: 600;
   /* В настройках шрифта высота линии указана как 20px однако 
   высота самого блока текст на макете - 16px, из-за этого контейнер 
@@ -116,7 +111,6 @@
 }
 
 .sale-content .description-block .price-block .old-price {
-  font-family: Gilroy;
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
@@ -127,9 +121,7 @@
 }
 
 .sale-content .description-block .description-text {
-  font-family: Gilroy;
   font-size: 14px;
-  font-weight: 500;
   line-height: 18px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -148,9 +140,7 @@
   border: 1px solid #fbfbfb33;
   border-radius: 8px;
 
-  font-family: Gilroy;
   font-size: 12px;
-  font-weight: 500;
   line-height: 16px;
   text-align: left;
   color: #fbfbfb;
@@ -217,7 +207,6 @@
   }
 
   .sale-content .description-block .description-text {
-    font-size: 16px;
     line-height: 20px;
     margin-bottom: 40px;
   }
