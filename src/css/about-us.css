@@ -4,6 +4,12 @@ picture{
 }
 
 .about-us-descrip{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background: #f3f3f3;
     display: flex;
     flex-wrap: wrap;
 }
@@ -42,10 +48,19 @@ picture{
             line-height: 129%;
             text-align: center;
             color: #fbfbfb;
-            margin-bottom: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 }
 
 @media screen and (min-width: 768px) {
+    .about-us-descrip{
+        padding-top: 80px;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-bottom: 80px;
+    }
+
 .about-us-title{
     font-size: 48px;
     line-height: 92%;
@@ -67,8 +82,14 @@ picture{
 }
 
 @media screen and (min-width: 1280px) {
+    .about-us-descrip {
+            margin-bottom: 100px;
+        }
+
 .about-us{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 40px;
 }
 
