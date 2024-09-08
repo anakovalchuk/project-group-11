@@ -2,7 +2,6 @@
 /* MOBILE */
 @media screen and (min-width: 320px) {
     .reviews {
-        padding: 0px 20px;
         padding-bottom: 60px;
         margin: 0 auto;
     }
@@ -78,7 +77,6 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
     .reviews {
-        padding: 0px 32px;
         padding-bottom: 80px;
     }
 
