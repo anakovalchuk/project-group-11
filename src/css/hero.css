@@ -41,6 +41,7 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
+    
 }
 
 .team-container {
@@ -113,7 +114,7 @@
 @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
-        .hero {
+        .background-image {
             background-image:
             url("/img/hero/hero-mob@2x.png");
         }
@@ -151,6 +152,7 @@ TABLET
     .hero-text {
         font-size: 16px;
         line-height: 1.25;
+        width: 480px;
     }
 
     .team-container {
@@ -188,7 +190,7 @@ TABLET
     @media screen and (min-device-pixel-ratio: 2),
             screen and (min-resolution: 192dpi),
             screen and (min-resolution: 2dppx) {
-            .hero {
+            .background-image {
                 background-image:
                 url("/img/hero/hero-tab@2x.png");
             }
@@ -242,7 +244,7 @@ DESKTOP
     @media screen and (min-device-pixel-ratio: 2),
             screen and (min-resolution: 192dpi),
             screen and (min-resolution: 2dppx) {
-            .hero {
+            .background-image {
                 background-image:
                 url("/img/hero/hero-desk@2x.png");
             }
