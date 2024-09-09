@@ -2,10 +2,6 @@
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,12 +10,17 @@
   font-size: 16px;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+
+  display: block;
+  padding: 20px 0;
 }
 .header-menu {
   display: none;
 }
 .header-sosials {
   display: none;
+  padding: 0;
+  background-color: transparent;
 }
 .burger-button {
   position: absolute;
@@ -35,6 +36,9 @@
 
   border: none;
   background-color: transparent;
+
+  stroke-width: 2.5px;
+  stroke: #0c0c0c;
 }
 .burger-icon {
   display: block;
@@ -43,7 +47,7 @@
 
 @media screen and (min-width: 768px) {
   .header-container {
-    padding: 26px 65px 26px 65px;
+    padding: 26px 0;
   }
   .header-logo {
     font-size: 20px;
@@ -53,9 +57,6 @@
 }
 @media screen and (min-width: 1280px) {
   .header-container {
-    padding: 26px 32px 26px 32px;
-  }
-  .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,7 +65,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    align-content: flex-start;
   }
   .header-menu {
     font-size: 14px;
