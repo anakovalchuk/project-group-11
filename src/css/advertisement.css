@@ -1,15 +1,15 @@
 .advertisement {
   border-radius: 30px;
   background-color: #0c0c0c;
-  background-image: url(../img/advertisement/advert-desk.png);
-  margin: 100px auto;
+  background-image: url(../img/advertisement/advert-mob.png);
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1150px;
-  height: 298px;
+  max-width: 335px;
+  height: 363px;
 }
 
 /* 
@@ -18,27 +18,30 @@
   border-radius: 30px;
   background-color: #0c0c0c;
   background-image: url(../img/advertisement/advert-desk.png);
-  margin: 100px auto;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1150px;
-  height: 298px;
+ 
 }
 
  */
 
+.visually-hidden {
+  opacity: 0;
+}
+
 .advertisement-text {
   font-family: 'Gilroy', sans-serif;
   font-weight: 600;
-  font-size: 48px;
-  line-height: 0.91;
+  font-size: 32px;
+  line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-  margin-top: 83px;
-  margin-left: 80px;
+  margin-left: 28px;
+  margin-right: 28px;
   width: 690px;
 }
 
@@ -46,6 +49,7 @@
   color: rgba(251, 251, 251, 0.5);
 }
 
+/* 
 .advertisement-link {
   width: 160px;
   height: 48px;
@@ -54,6 +58,17 @@
   border-radius: 16px;
   width: 160px;
   margin-top: 80px;
+}
+ */
+
+.advertisement-link {
+  width: 160px;
+  height: 48px;
+  margin-left: 28px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  max-width: 160px;
+  margin-top: 28px;
 }
 
 .advertisement-link-text {
@@ -64,4 +79,38 @@
   text-align: center;
   color: #fbfbfb;
   padding-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .advertisement {
+    background-image: url(../img/advertisement/advert-tab.png);
+    max-width: 704px;
+    height: 425px;
+  }
+
+  .advertisement-text {
+    font-size: 48px;
+    line-height: 0.91;
+    max-width: 576px;
+    align-content: center;
+    margin-left: 64px;
+  }
+
+  .advertisement-link {
+    margin-left: 64px;
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advertisement {
+    background-image: url(../img/advertisement/advert-desk.png);
+    max-width: 1150px;
+    height: 298px;
+  }
+
+  .advertisement-text {
+    font-weight: 600;
+    max-width: 690px;
+  }
 }
