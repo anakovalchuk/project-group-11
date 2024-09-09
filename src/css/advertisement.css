@@ -1,10 +1,34 @@
 .advertisement {
   border-radius: 30px;
+  background-color: #0c0c0c;
   background-image: url(../img/advertisement/advert-desk.png);
-  margin: 0 auto;
+  margin: 100px auto;
   display: flex;
   flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1150px;
+  height: 298px;
 }
+
+/* 
+
+.advertisement {
+  border-radius: 30px;
+  background-color: #0c0c0c;
+  background-image: url(../img/advertisement/advert-desk.png);
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1150px;
+  height: 298px;
+}
+
+ */
 
 .advertisement-text {
   font-family: 'Gilroy', sans-serif;
@@ -15,28 +39,29 @@
   color: #fbfbfb;
   margin-top: 83px;
   margin-left: 80px;
+  width: 690px;
 }
 
 .advertisement-span {
-  color: aqua;
+  color: rgba(251, 251, 251, 0.5);
 }
 
-.advertisement-button {
+.advertisement-link {
   width: 160px;
   height: 48px;
   margin-left: 140px;
-  border-radius: 30px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  width: 160px;
+  margin-top: 80px;
 }
 
-.advertisement-button {
-  border-radius: 10px;
-}
-
-.advertisement-button-text {
+.advertisement-link-text {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
   text-align: center;
   color: #fbfbfb;
+  padding-top: 15px;
 }
