@@ -1,0 +1,143 @@
+.catalog {
+  margin-bottom: 60px;
+}
+/* .container {
+} */
+.catalog-header {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
+  gap: 20px;
+  max-width: 335px;
+}
+/* .catalog-item {
+} */
+.watch-card {
+  background-color: #fbfbfb;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  padding-right: 32px;
+  padding-left: 32px;
+  max-width: 335px;
+}
+.catalog-img {
+  width: 100%;
+}
+.watch-details {
+  margin: 10px 0 24px;
+}
+.watch-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 8px;
+  width: 279px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.watch-price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+.catalog-item.mob {
+  display: none;
+}
+.btn-show-more {
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border: none;
+}
+
+.btn-show-more:hover,
+.btn-show-more:focus {
+  background-color: #1f3cd4;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog {
+    margin-bottom: 80px;
+  }
+  /* .container {
+} */
+  .catalog-header {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+  .catalog-list {
+    row-gap: 32px;
+    column-gap: 16px;
+    flex-direction: row;
+  }
+  .catalog-item {
+  }
+  .watch-card {
+    background-color: #f3f3f3;
+    min-width: 344px;
+  }
+  .watch-name {
+    font-size: 20px;
+  }
+
+  .catalog-item.mob {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .btn-show-more {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .catalog {
+    margin-bottom: 100px;
+  }
+  .catalog-header {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+  .catalog-list {
+    gap: 32px 23px;
+  }
+  .watch-card {
+    min-width: 368px;
+  }
+  .watch-name {
+    width: 304px;
+
+    line-height: 1;
+  }
+  .catalog-item,
+  .catalog-item.mob {
+    width: calc((100% - 2 * 23px) / 3);
+  }
+}
