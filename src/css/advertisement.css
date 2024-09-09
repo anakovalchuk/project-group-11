@@ -62,7 +62,7 @@
 }
  */
 
-.advertisement-link {
+.advert-link {
   width: 160px;
   height: 48px;
   margin-left: 28px;
@@ -72,7 +72,7 @@
   margin-top: 28px;
 }
 
-.advertisement-link-text {
+.advert-link {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -97,7 +97,7 @@
     margin-left: 64px;
   }
 
-  .advertisement-link {
+  .advert-link {
     margin-left: 64px;
     margin-top: 32px;
   }
@@ -116,7 +116,7 @@
     margin-left: 0;
   }
 
-  .advertisement-link {
+  .advert-link {
     margin-top: 80px;
   }
 }
