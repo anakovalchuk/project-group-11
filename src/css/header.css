@@ -62,6 +62,11 @@
     line-height: 1.28;
     text-align: center;
     color: #0c0c0c;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-link:hover,
+  .header-link:focus {
+    color:#3350e9;
   }
   .header-link.current {
     position: relative;
@@ -81,12 +86,14 @@
     display: flex;
     gap: 10px;
   }
-  .header-icons {
+  .header-icons-link {
     border: 1px solid rgba(12, 12, 12, 0.1);
     border-radius: 10px;
-    padding: 8px;
     width: 36px;
     height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .header-svg {
     fill: #0c0c0c;
