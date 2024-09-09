@@ -67,6 +67,7 @@ picture{
         padding-top: 80px;
         padding-left: 60px;
         padding-right: 60px;
+        padding-bottom: 80px;
     }
 
 .about-us-title{
@@ -83,21 +84,11 @@ picture{
 .about-us-text-cont{
     margin-bottom: 60px;
 }
-
-.about-us-btn{
-    margin-bottom: 120px;
-}
 }
 
 @media screen and (min-width: 1280px) {
-    .about-us {
-            margin-bottom: 100px;
-        }
-
      .about-us-descrip{
         margin-bottom: 0;
-        width: 580px;
-        height: 532px;
      }
 
 .about-us{
@@ -105,18 +96,11 @@ picture{
     align-items: center;
     justify-content: center;
     gap: 40px;
+    margin-bottom: 100px;
 }
 
 .about-us-text-cont{
     max-width: 460px;
     margin-bottom: 40px;
-}
-
-.about-us-btn{
-    margin-bottom: 80px;
-}
-
-.about-us-image{
-    max-width: 530px;
 }
 }
