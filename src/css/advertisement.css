@@ -112,5 +112,10 @@
   .advertisement-text {
     font-weight: 600;
     max-width: 690px;
+    margin-left: 0;
+  }
+
+  .advertisement-link {
+    margin-top: 80px;
   }
 }
