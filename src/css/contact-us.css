@@ -169,7 +169,6 @@ font-size: 14px;
 line-height: 1.29;
 text-align: center;
 color: #fbfbfb;
-
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -187,15 +186,15 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .second-div-cu {
-    background-color: #f3f3f3;
+    background-color: #f3f3f4;
     /* width: 335px;
     height: auto; */
     display: inline-block;
     border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
 }
+
 
 @media screen and (min-width: 768px) {
     .second-div-cu {
@@ -205,9 +204,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
     .second-div-cu {
         width: 530px;
         margin-top: 84px;
     }
-}
+} */
