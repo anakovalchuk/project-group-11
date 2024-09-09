@@ -156,6 +156,8 @@
   padding-top: 240px;
   padding-bottom: 40px;
 
+  min-width: 200px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -230,7 +232,7 @@
 
 @media screen and (min-width: 768px) {
   .mob-menu {
-    max-width: 330px;
+    min-width: 330px;
   }
   .container.mob-menu-container {
     padding-top: 310px;
