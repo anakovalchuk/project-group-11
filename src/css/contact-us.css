@@ -145,7 +145,11 @@ height: 42px;
     margin-bottom: 28px;
     resize: none;
     background-color: transparent;
-    outline: transparent;    
+    outline: transparent;  
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+color: #0c0c0c;  
 }
 
 @media screen and (min-width: 768px) {
