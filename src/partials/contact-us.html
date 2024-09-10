@@ -6,13 +6,13 @@
                 <p class="text-cu">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
                 <form class="form-cu">
                     <label class="label-cu">
-                        <input name="user-name" type="text" class="input-cu" placeholder="Name">
+                        <input required name="user-name" type="text" class="input-cu" placeholder="Name" pattern="[a-zA-Z]+">
                     </label>
                     <label class="label-cu">
-                        <input name="user-email" type="email" class="input-cu" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+                        <input required name="user-email" type="email" class="input-cu" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
                     </label>
                     <label class="label-cu" >
-                        <input name="user-phone" type="tel" class="input-cu" placeholder="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$">
+                        <input required name="user-phone" type="tel" class="input-cu" placeholder="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$">
                     </label>
                     <div class="comment-container">
                         <label class="label-form" for="textarea">
