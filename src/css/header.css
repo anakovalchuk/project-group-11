@@ -66,7 +66,7 @@
   }
   .header-link:hover,
   .header-link:focus {
-    color:#3350e9;
+    color: #3350e9;
   }
   .header-link.current {
     position: relative;
@@ -114,9 +114,8 @@
 
 .mob-menu {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
   z-index: 999;
 
   max-width: 200px;
