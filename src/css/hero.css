@@ -1,15 +1,13 @@
 .hero {
     max-width: 375px;
-    padding: 0 20px;
+    padding: 60px 20px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 60px;
 }
 
 .hero-info {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 60px;
     padding-bottom: 28px;
     gap: 28px;
 }
@@ -104,7 +102,7 @@
     border-radius: 30px;
     max-width: 335px;
     height: 366px;
-    background-color: rgba(12, 12, 12, 0.2), url("path_to_image");
+    background-color: rgba(12, 12, 12, 0.2);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -127,14 +125,12 @@ TABLET
 @media screen and (min-width: 768px) {
     .hero {
         max-width: 768px;
-        padding: 0 32px;
-        margin-bottom: 80px;
+        padding: 80px 32px;
     }
 
     .hero-info {
         flex-wrap: nowrap;
         justify-content: space-between;
-        padding-top: 80px;
         padding-bottom: 40px;
         gap: 11px;
     }
@@ -185,6 +181,7 @@ TABLET
         background-image: url("/img/hero/hero-tab.png");
         height: 520px;
         max-width: 704px;
+        border-radius: 50px;
     }
     
     @media screen and (min-device-pixel-ratio: 2),
@@ -204,8 +201,7 @@ DESKTOP
 @media screen and (min-width: 1280px) {
     .hero {
         max-width: 1280px;
-        padding: 0 65px;
-        margin-bottom: 100px;
+        padding: 100px 65px;
     }
 
     .text-container {
