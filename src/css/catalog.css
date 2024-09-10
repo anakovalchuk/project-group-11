@@ -27,15 +27,17 @@
   display: flex;
   flex-direction: column;
   padding-top: 24px;
+  padding-bottom: 24px;
   padding-right: 32px;
   padding-left: 32px;
   max-width: 335px;
 }
 .catalog-img {
-  width: 100%;
+  width: 208px;
+  height: 226px;
+  margin: 18px 36px;
 }
 .watch-details {
-  margin: 10px 0 24px;
 }
 .watch-name {
   font-weight: 500;
@@ -48,6 +50,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  margin-top: 10px;
 }
 .watch-price {
   font-weight: 400;
@@ -103,6 +106,11 @@
     background-color: #f3f3f3;
     min-width: 344px;
   }
+  .catalog-img {
+    width: 268px;
+    height: 292px;
+    margin: 10px 6px;
+  }
   .watch-name {
     font-size: 20px;
   }
@@ -130,6 +138,9 @@
   }
   .watch-card {
     min-width: 368px;
+  }
+  .catalog-img {
+    width: 292px;
   }
   .watch-name {
     width: 304px;
