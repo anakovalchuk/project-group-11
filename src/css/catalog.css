@@ -1,8 +1,9 @@
 .catalog {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 /* .container {
 } */
+
 .catalog-header {
   font-weight: 600;
   font-size: 32px;
@@ -16,7 +17,7 @@
   flex-wrap: wrap;
   min-width: 100%;
   gap: 20px;
-  max-width: 335px;
+  /* max-width: 335px; */
 }
 /* .catalog-item {
 } */
@@ -28,14 +29,14 @@
   flex-direction: column;
   padding-top: 24px;
   padding-bottom: 24px;
-  padding-right: 32px;
-  padding-left: 32px;
-  max-width: 335px;
+  padding-right: 28px;
+  padding-left: 28px;
+  /* max-width: 335px; */
 }
 .catalog-img {
   width: 208px;
   height: 226px;
-  margin: 18px 36px;
+  margin: 18px 36px 18px 35px;
 }
 .watch-details {
 }
