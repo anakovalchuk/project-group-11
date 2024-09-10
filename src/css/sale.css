@@ -1,7 +1,7 @@
 /* Mobile styles */
 
 .sale-section {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .sale-section .section-header {
@@ -152,7 +152,7 @@
 
 @media screen and (min-width: 768px) {
   .sale-section {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
 
   .sale-section .section-header {
@@ -231,7 +231,7 @@
 /* Desktop Styles */
 @media screen and (min-width: 1280px) {
   .sale-section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 
   /* images part */
