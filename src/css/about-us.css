@@ -4,7 +4,7 @@ picture{
 }
 
 .about-us{
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .about-us-descrip{
@@ -66,7 +66,7 @@ picture{
 
 @media screen and (min-width: 768px) {
     .about-us {
-            margin-bottom: 80px;
+            padding-bottom: 80px;
         }
 
     .about-us-descrip{
@@ -102,7 +102,7 @@ picture{
     align-items: center;
     justify-content: center;
     gap: 40px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .about-us-text-cont{
